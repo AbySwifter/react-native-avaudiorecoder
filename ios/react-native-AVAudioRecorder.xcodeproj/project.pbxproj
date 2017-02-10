@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090C7EB61DE6CAFA00100201 /* ChatAudioRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 090C7EB21DE6CAFA00100201 /* ChatAudioRecord.m */; };
+		090C7EB71DE6CAFA00100201 /* NSString+file.m in Sources */ = {isa = PBXBuildFile; fileRef = 090C7EB51DE6CAFA00100201 /* NSString+file.m */; };
+		09DEBF1A1DE6CE11006D9ED2 /* avAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DEBF191DE6CE11006D9ED2 /* avAudioManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		090C7EA31DE6CAE200100201 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		090C7EA51DE6CAE200100201 /* libreact-native-AVAudioRecorder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreact-native-AVAudioRecorder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		090C7EB11DE6CAFA00100201 /* ChatAudioRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatAudioRecord.h; sourceTree = "<group>"; };
+		090C7EB21DE6CAFA00100201 /* ChatAudioRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatAudioRecord.m; sourceTree = "<group>"; };
+		090C7EB31DE6CAFA00100201 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
+		090C7EB41DE6CAFA00100201 /* NSString+file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+file.h"; sourceTree = "<group>"; };
+		090C7EB51DE6CAFA00100201 /* NSString+file.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+file.m"; sourceTree = "<group>"; };
+		09DEBF181DE6CE11006D9ED2 /* avAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avAudioManager.h; sourceTree = "<group>"; };
+		09DEBF191DE6CE11006D9ED2 /* avAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = avAudioManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090C7EA21DE6CAE200100201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090C7E9C1DE6CAE200100201 = {
+			isa = PBXGroup;
+			children = (
+				090C7EA71DE6CAE200100201 /* react-native-AVAudioRecorder */,
+				090C7EA61DE6CAE200100201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090C7EA61DE6CAE200100201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090C7EA51DE6CAE200100201 /* libreact-native-AVAudioRecorder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090C7EA71DE6CAE200100201 /* react-native-AVAudioRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				090C7EB11DE6CAFA00100201 /* ChatAudioRecord.h */,
+				090C7EB21DE6CAFA00100201 /* ChatAudioRecord.m */,
+				090C7EB31DE6CAFA00100201 /* DebugLog.h */,
+				090C7EB41DE6CAFA00100201 /* NSString+file.h */,
+				090C7EB51DE6CAFA00100201 /* NSString+file.m */,
+				09DEBF181DE6CE11006D9ED2 /* avAudioManager.h */,
+				09DEBF191DE6CE11006D9ED2 /* avAudioManager.m */,
+			);
+			path = "react-native-AVAudioRecorder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090C7EA41DE6CAE200100201 /* react-native-AVAudioRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090C7EAE1DE6CAE200100201 /* Build configuration list for PBXNativeTarget "react-native-AVAudioRecorder" */;
+			buildPhases = (
+				090C7EA11DE6CAE200100201 /* Sources */,
+				090C7EA21DE6CAE200100201 /* Frameworks */,
+				090C7EA31DE6CAE200100201 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "react-native-AVAudioRecorder";
+			productName = "react-native-AVAudioRecorder";
+			productReference = 090C7EA51DE6CAE200100201 /* libreact-native-AVAudioRecorder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090C7E9D1DE6CAE200100201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = dragontrail;
+				TargetAttributes = {
+					090C7EA41DE6CAE200100201 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HFBZH8CQ9S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 090C7EA01DE6CAE200100201 /* Build configuration list for PBXProject "react-native-AVAudioRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 090C7E9C1DE6CAE200100201;
+			productRefGroup = 090C7EA61DE6CAE200100201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090C7EA41DE6CAE200100201 /* react-native-AVAudioRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090C7EA11DE6CAE200100201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DEBF1A1DE6CE11006D9ED2 /* avAudioManager.m in Sources */,
+				090C7EB61DE6CAFA00100201 /* ChatAudioRecord.m in Sources */,
+				090C7EB71DE6CAFA00100201 /* NSString+file.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		090C7EAC1DE6CAE200100201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		090C7EAD1DE6CAE200100201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		090C7EAF1DE6CAE200100201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HFBZH8CQ9S;
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		090C7EB01DE6CAE200100201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HFBZH8CQ9S;
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)/usr/local/include",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090C7EA01DE6CAE200100201 /* Build configuration list for PBXProject "react-native-AVAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090C7EAC1DE6CAE200100201 /* Debug */,
+				090C7EAD1DE6CAE200100201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090C7EAE1DE6CAE200100201 /* Build configuration list for PBXNativeTarget "react-native-AVAudioRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090C7EAF1DE6CAE200100201 /* Debug */,
+				090C7EB01DE6CAE200100201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090C7E9D1DE6CAE200100201 /* Project object */;
+}
